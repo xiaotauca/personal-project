@@ -6,11 +6,11 @@ public class Email {
     private String firstname;
     private String lastname;
     private String password;
+    private String email;
     private int defaultPasswordLength = 6;
     private String department;
-    private int mailboxCap;
     private String altEmail;
-
+    private String companySuffix = "auca.com";
     //constructor
     public Email(String firstname, String lastname) {
         this.firstname = firstname;
@@ -21,6 +21,10 @@ public class Email {
 
         this.password = randomPassword(defaultPasswordLength);
         System.out.println("Your password is: " + this.password);
+
+        email = firstname.toLowerCase() + "." + lastname.toLowerCase() + "@" +
+                this.department + "." + companySuffix;
+        System.out.println("Your email is: " + email);
     }
 
     //ask for department
@@ -40,5 +44,23 @@ public class Email {
         }
         return new String(password);
     }
+    public void setAlternateEmail(String altEmail) {
+        this.altEmail = altEmail;
+    }
 
+    public void changePassword(String password) {
+        this.password = password;
+    }
+
+    public String getAltEmail() {
+        return altEmail;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+    public String showInfo() {
+        return "NAME: " + firstname + "." + lastname +
+                "\nCOMPANY EMAIL: " + email;
+    }
 }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d87f186b-d384-41e3-9ebc-5bb29ba61870" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project01/src/emailapp/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project01/src/emailapp/EmailApp.java" afterDir="false" />
+    <list default="true" id="d87f186b-d384-41e3-9ebc-5bb29ba61870" name="Changes" comment="half work done in email application">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project01/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/project01/src/emailapp/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project01/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/project01/src/emailapp/EmailApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1691670870308</updated>
     </task>
+    <task id="LOCAL-00001" summary="half work done in email application">
+      <created>1691673409528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691673409528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,5 +65,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="half work done in email application" />
+    <option name="LAST_COMMIT_MESSAGE" value="half work done in email application" />
   </component>
 </project>
