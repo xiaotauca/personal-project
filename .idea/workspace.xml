@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d87f186b-d384-41e3-9ebc-5bb29ba61870" name="Changes" comment="half work done in email application">
+    <list default="true" id="d87f186b-d384-41e3-9ebc-5bb29ba61870" name="Changes" comment="email application finished">
+      <change afterPath="$PROJECT_DIR$/brickBreak/brickBreak.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brickBreak/src/brickBreak/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brickBreak/src/brickBreak/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project01/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/project01/src/emailapp/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project01/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/project01/src/emailapp/EmailApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project01/emailapp/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project01/emailapp/Email.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project01/emailapp/EmailApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project01/emailapp/EmailApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691673409528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="email application finished">
+      <created>1691763314541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691763314541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="half work done in email application" />
-    <option name="LAST_COMMIT_MESSAGE" value="half work done in email application" />
+    <MESSAGE value="email application finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="email application finished" />
   </component>
 </project>
